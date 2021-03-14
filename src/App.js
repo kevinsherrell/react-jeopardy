@@ -1,3 +1,4 @@
+import GameContainer from "./components/GameContainer";
 
 function App() {
   return (
@@ -5,6 +6,7 @@ function App() {
       <header>
         React Jeopardy!
       </header>
+        <GameContainer/>
     </div>
   );
 }
