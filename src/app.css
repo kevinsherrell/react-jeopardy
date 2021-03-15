@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.scoreContainer{
+    margin-bottom: 10px;
+}
+.scoreContainer button {
+
+    background-color: deepskyblue;
+    color: white;
+    margin-right: 5px;
+}
+.getQuestion{
+    margin-bottom: 10px;
+}
+.getQuestion button{
+    width: 50%;
+    border: none;
+    background-color: indianred;
+    color: white;
+}
+.revealAnswer{
+    margin-top: 10px;
+}
+.revealAnswer button{
+    color: white;
+    background-color: darkslateblue;
+    width: 50%;
+}
+.answer{
+    margin-top: 10px;
+}
